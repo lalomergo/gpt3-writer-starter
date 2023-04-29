@@ -42,10 +42,17 @@ const Home = () => {
             <h1>Descubre tu horóscopo al instante</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Escribe qué signo eres</h2>
+            <h1>Descubre tu horóscopo al instante</h1>
           </div>
         </div>
+        <div className="instructions">
+            <h3>Tu fecha de nacimiento</h3>
+        </div>
+        
       <div className="prompt-container">
+        <div className="instructions">
+            <h3>Tu fecha de nacimiento</h3>
+        </div>
        <textarea 
         placeholder="start typing here" 
         className="prompt-box"
